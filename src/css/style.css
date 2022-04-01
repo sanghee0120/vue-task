@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.layout {
+    width: 640px;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.content-box {
+    padding: 30px;
+}
+
+/* list */
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 0;
+}
+
+.task-item .info {
+    display: flex;
+}
+
+.task-item .emoji {
+    margin-right: 10px;
+}
+
+.add-input {
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 40px;
+}
+
+.add-input form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.add-input select {
+    width: 50px;
+    height: 37px;
+    border: 1px solid #ddd;
+    margin-right: 4px;
+    border-radius: 4px;
+    padding-left: 6px;
+
+}
+
+.add-input input {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 14px;
+}
+
+.add-input button {
+    width: 50px;
+    height: 37px;
+    background: none;
+    border: none;
+    margin-left: 4px;
+    background: #8ca0b0;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* detail */
+
+.detail-content {
+    /* display: none; */
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
+
+.detail-content.display {
+    display: block;
+}
+
+.detail-content h2 {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+/* calendar */
+
+.vc-container.vc-is-expanded {
+    border: none;
+}
